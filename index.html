@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Course Enrollment</title>
+    <Link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <h1>Course Enrollment</h1>
+
+    <label for="nameInput">Your Name:</label>
+    <input type="text" id="nameInput">
+
+    <br><br>
+
+    <label for="courseSelect">Select a Course:</label>
+
+    <select id="courseSelect">
+        <option value="">--Choose--</option>
+    </select>
+
+    <br><br>
+
+    <label>
+        <input type="checkbox" id="discountCheck"> Apply 10% Discount
+    </label>
+
+    <br><br>
+
+    <button id="enrollBtn">Enroll</button>
+
+    <h2>Summary:</h2>
+    <div id="summary"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
